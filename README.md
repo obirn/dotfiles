@@ -18,9 +18,9 @@ Copy the vimrc file into your configuration folder:
 Install the plugins:  
 `vim +PluginInstall +qall`
 
-> Error like this might appear after typing the last command, but it is totally normal.
-`E185: Cannot find color scheme 'codedark'`
-> Just press Enter.
+> Errors like this might appear after typing the last command, but it is totally normal.<br>
+`E185: Cannot find color scheme 'codedark'`<br>
+> Just press Enter.<br>
 
 Plugins should then install. You can then close this window and use vim ! ✅
 
@@ -39,9 +39,9 @@ Then, copy the .vimrc file from the repo:
 Install the plugins:  
 `vim +PluginInstall +qall`
 
-Error like this might appear after typing the last command, but it is totally normal.<br>
+> Errors like this might appear after typing the last command, but it is totally normal.<br>
 `E185: Cannot find color scheme 'codedark'`<br>
-Just press Enter.<br>
+> Just press Enter.<br>
 
 Plugins should then install. You can then close this window and use vim ! ✅
 
