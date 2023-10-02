@@ -5,8 +5,8 @@ This repository contains my personal **configuration files**.
 ## Table of contents
 1. [Vimrc (in EPITA)](#vimrc-in-epita)
 2. [Vimrc (on your personal machine)](#vimrc-on-your-personal-machine)
-3. [i3](#i3)
-4. [nvim](#nvim)
+3. [I3 (Keymaps, background and more)](#i3)
+4. [Nvim](#nvim)
 
 # Vimrc (in epita)
 First of all, clone the repository in the tmp folder (So that the repo will be deleted on reboot).  
