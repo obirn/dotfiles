@@ -45,8 +45,37 @@ Install the plugins:
 
 Plugins should then install. You can then close this window and use vim ! ✅
 
-# i3
-Not completed yet
+# install.sh
+
+# I3
+
+## Introduction
+This i3 config file is the one I used on EPITA's computer.  
+You could copy and paste the i3 config file from this repo in your afs, but I would **strongly** discourage that, as somes lines of the config files contains calls to programs that I installed with other config files.
+To see how to install programs on PIE, see my install.sh section.
+
+## Explanations on my config file
+Most of the lines are included in the default i3 config file given by the school, so I won't explain these lines.
+I will only explain the lines I added personally.
+
+## Keymaps
+Custom your i3lock with a background and a keymap (Mine is Mod+I)
+`bindsym $mod+i exec i3lock --image "/home/robin.varliette/afs/Image/shrek_1920_1080.png`
+
+Take screenshots (only works if flameshot is installed) with Mod+Shift+s 
+`bindsym $mod+Shift+s exec flameshot gui -c`
+
+## Start softwares after logging
+These commands starts discord, firefox, and a terminal with neofetch after logging from i3.
+`exec_always --no-startup-id discord
+exec_always --no-startup-id firefox
+exec_always --no-startup-id "alacritty --hold -e bash -c 'neofetch; bash'"`
+
+**Important: the softwares will be launched on the same workspace**.
+To launch every application on a specific workspace, you can add these lines:
+``
+
+
 
 # nvim
 Not completed yet
