@@ -1,4 +1,4 @@
-# Obirn's dotfile
+# Obirn's dotfiles
 
 This repository contains my personal **configuration files**.
 
